@@ -14,7 +14,7 @@ A concise portfolio showcasing projects I built during my studies in machine lea
 - [AI Fire & Smoke Detection for Smart Manufacturing](./Computer%20Vision/Fire%20&%20Smoke%20Detection/README.md) — Early fire/smoke detection with temporal smoothing for low false alarms.
 
 ### Image Classification
-- [Skin Cancer Classification (CNN)](./Image%20Classification/Skin%20Cancer%20(CNN)/README.md) — MLP vs custom CNN vs VGG-16 TL on HAM10000; accuracy and latency compared.
+- [Skin Cancer Classification (CNN)](./Image%20Classification/Skin%20Cancer%20Classification%20(CNN)/README.md) — MLP vs custom CNN vs VGG-16 TL on HAM10000; accuracy and latency compared.
 - [Pneumonia Detection (CXR, CNN)](./Image%20Classification/Pneumonia%20(CXR,%20CNN)/README.md) — ResNet-50/VGG-16 TL for pediatric chest X-rays; strong sensitivity/specificity.
 - [Malaria Detection (Plasmodium Schizont & Gametocyte)](./Image%20Classification/Malaria/README.md) — CNN classifier for infected cell patches.
 - [Face Detection](./Image%20Classification/Face%20Detection/README.md) — Real-time face detection (MTCNN/RetinaFace) with FPS notes.
