@@ -28,7 +28,7 @@ A concise portfolio showcasing projects I built during my studies in machine lea
 - [RAG Score Evaluation & Speed Analysis](./NLP/RAG%20Score%20&%20Speed/README.md) — Quality (0–5 rubric) vs latency across backends.
 - [Similarity Assessment Model](./NLP/RAG%20Similarity%20Assessment/README.md) — Embeddings + ANN (FAISS/ScaNN/Annoy/HNSW) with Top-K scoring.
 - [Module to Create Fine-Tuning](./NLP/Module%20to%20Create%20Fine-Tuning/README.md) — Modular LoRA/QLoRA fine-tuning workflow (Transformers + PEFT).
-- [CRUD Operation – Minimal API & Data Layer](./Other/CRUD%20Operation%20–%20Minimal%20API%20&%20Data%20Layer/README.md) — Typed CRUD mini-stack for demos/tools.
+- [CRUD Operation – Minimal API & Data Layer](./NLP/CRUD%20Operation%20–%20Minimal%20API%20&%20Data%20Layer/README.md) — Typed CRUD mini-stack for demos/tools.
 
 ### Machine Learning
 - [Visualizing High-Dimensional Data with t-SNE](./Machine%20Learning/t-SNE%20Visualization/README.md) — Feature clustering visualization (t-SNE/UMAP).
