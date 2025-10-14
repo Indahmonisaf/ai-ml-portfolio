@@ -24,9 +24,9 @@ A concise portfolio showcasing projects I built during my studies in machine lea
 - [Neural Style Transfer](./Image-to-Image/Neural%20Style%20Transfer/README.md) — Classic NST / perceptual loss; before/after gallery.
 
 ### Natural Language Processing
-- [RAG Evaluation – Category-Aware Question Retrieval (A)](./NLP/RAG-A%20Evaluation/README.md) — Compare global vs category-aware retrieval on Q&A dataset.
-- [RAG Score Evaluation & Speed Analysis (B)](./NLP/RAG-B%20Score%20&%20Speed/README.md) — Quality (0–5 rubric) vs latency across backends.
-- [Similarity Assessment Model (C)](./NLP/RAG-C%20Similarity%20Assessment/README.md) — Embeddings + ANN (FAISS/ScaNN/Annoy/HNSW) with Top-K scoring.
+- [RAG Evaluation – Category-Aware Question Retrieval](./NLP/RAG%20Evaluation/README.md) — Compare global vs category-aware retrieval on Q&A dataset.
+- [RAG Score Evaluation & Speed Analysis](./NLP/RAG%20Score%20&%20Speed/README.md) — Quality (0–5 rubric) vs latency across backends.
+- [Similarity Assessment Model](./NLP/RAG%20Similarity%20Assessment/README.md) — Embeddings + ANN (FAISS/ScaNN/Annoy/HNSW) with Top-K scoring.
 - [Module to Create Fine-Tuning](./NLP/Module%20to%20Create%20Fine-Tuning/README.md) — Modular LoRA/QLoRA fine-tuning workflow (Transformers + PEFT).
 - [CRUD Operation – Minimal API & Data Layer](./Other/CRUD%20Operation%20–%20Minimal%20API%20&%20Data%20Layer/README.md) — Typed CRUD mini-stack for demos/tools.
 
