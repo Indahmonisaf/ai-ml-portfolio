@@ -27,7 +27,7 @@ Ship detection in infrared imagery is challenging due to **low signal-to-clutter
 
 <p align="center">
   <!-- Replace with your architecture figure if you want -->
-  <img src="./figures/architecture.png" alt="IS-YOLO Architecture" width="85%"/>
+  <img src="./architecture.png" alt="IS-YOLO Architecture" width="85%"/>
 </p>
 
 ---
@@ -115,12 +115,11 @@ Korean Patent Application No. **10-2024-0040244**, filed **2024-03-25**; Applica
 ## How to Use This Folder
 ```
 
-projects/is-yolo/
+ai-ml-portfolio/Computer Vision/Small Ship Detection (IS-YOLO)/
 ├─ README.md              # this file
 ├─ paper.pdf              # add your paper here
 ├─ patent.pdf             # add your patent here
 ├─ slides.pdf             # (optional) add your slides
-└─ figures/
 ├─ architecture.png    # (optional) model diagram
 └─ results/
 ├─ sample_01.jpg    # qualitative results (add more as needed)
