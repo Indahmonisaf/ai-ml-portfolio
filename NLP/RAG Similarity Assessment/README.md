@@ -5,13 +5,25 @@ This project implements a **semantic similarity** pipeline for text pairs and **
 
 ---
 
+## Table of Contents
+- [Notebook](#notebook)
+- [Features](#features)
+- [Dataset](#dataset)
+- [Environment & Dependencies](#environment--dependencies)
+- [How to Run](#how-to-run)
+- [Example Output (conceptual)](#example-output-conceptual)
+- [Suggested Results Table](#suggested-results-table-fill-after-running)
+- [Roadmap](#roadmap)
+- [Author](#author)
+
+---
+
 ## Notebook
 **`Similarity Assessment Model.ipynb`** (Jupyter/Colab)
 
 ---
 
 ## Features
-
 - **Embeddings:** `sentence-transformers` (e.g., SBERT / `all-MiniLM`), with room to swap in **USE / T5 / OpenAI / Cohere / Gemini** encoders.
 - **ANN Indexes:** **FAISS**, **ScaNN**, **Annoy**, **HNSW (hnswlib)** — pluggable backends for speed/recall trade-offs.
 - **Similarity:** **Cosine similarity** (baseline), easily extendable to other distance metrics or **LLM-based** scoring.
@@ -20,14 +32,12 @@ This project implements a **semantic similarity** pipeline for text pairs and **
 ---
 
 ## Dataset
-
 - **Expected format:** text records in **CSV / JSON / JSONL** (Q&A or sentence pairs).
 - Refer to the *Referenced Data Files* table in the notebook for exact filenames/paths.
 
 ---
 
 ## Environment & Dependencies
-
 Install common dependencies used in the notebook (adjust as needed):
 
 ```bash
