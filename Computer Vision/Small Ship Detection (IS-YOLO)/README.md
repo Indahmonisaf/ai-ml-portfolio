@@ -61,8 +61,8 @@ Ship detection in infrared imagery is challenging due to **low signal-to-clutter
 
 <p align="center">
   <!-- Example slots for your qualitative results -->
-  <img src="./figures/results/sample_01.jpg" alt="Qualitative Result 1" width="45%"/>
-  <img src="./figures/results/sample_02.jpg" alt="Qualitative Result 2" width="45%"/>
+  <img src="./result.png" alt="Qualitative Result 1" width="45%"/>
+
 </p>
 
 ---
@@ -121,9 +121,7 @@ ai-ml-portfolio/Computer Vision/Small Ship Detection (IS-YOLO)/
 ├─ patent.pdf             # add your patent here
 ├─ slides.pdf             # (optional) add your slides
 ├─ architecture.png    # (optional) model diagram
-└─ results/
-├─ sample_01.jpg    # qualitative results (add more as needed)
-└─ sample_02.jpg
+└─ result.png
 
 ````
 
