@@ -65,9 +65,9 @@ A concise portfolio showcasing projects I built during my studies in machine lea
 
 * **Skin Cancer (CNN)** — Compare MLP, custom CNN, and VGG-16 TL on HAM10000; best accuracy with TL, latency compared. <br>
   **Paper:** [Performance of Multi Layer Perceptron and Deep Neural Networks in Skin Cancer Classification - 2021 IEEE 3rd Global Conference on Life Sciences and Technologies (LifeTech) ](https://ieeexplore.ieee.org/document/9391876)
-* **Pneumonia Detection** — ResNet-50/VGG-16 TL on pediatric CXR; sensitivity/specificity focus with careful augmentation.
+* **Pneumonia Detection** — ResNet-50/VGG-16 TL on pediatric CXR; sensitivity/specificity focus with careful augmentation. <br>
   **Paper:** [Pneumonia detection in chest X-ray images using convolutional neural network] (https://pubs.aip.org/aip/acp/article-abstract/2499/1/020001/2827211/Pneumonia-detection-in-chest-X-ray-images-using?redirectedFrom=fulltext)
-* **Malaria Detection** — CNN for parasite stages (schizont/gametocyte) on microscopy patches; balanced with augmentation.
+* **Malaria Detection** — CNN for parasite stages (schizont/gametocyte) on microscopy patches; balanced with augmentation. <br>
   **Paper:** [Classification of Plasmodium Skizon and Gametocytes Malaria Images Using Deep Learning] (https://ieeexplore.ieee.org/document/9649676)
 * **Face Detection** — Real-time MTCNN/RetinaFace with ONNX export; FPS benchmarks on CPU/edge GPU.
 
