@@ -15,8 +15,8 @@ A concise portfolio showcasing projects I built during my studies in machine lea
 
 ### Image Classification
 - [Skin Cancer Classification (CNN)](./Image%20Classification/Skin%20Cancer%20Classification%20(CNN)/README.md) — MLP vs custom CNN vs VGG-16 TL on HAM10000; accuracy and latency compared.
-- [Pneumonia Detection (CXR, CNN)](./Image%20Classification/Pneumonia%20(CXR,%20CNN)/README.md) — ResNet-50/VGG-16 TL for pediatric chest X-rays; strong sensitivity/specificity.
-- [Malaria Detection (Plasmodium Schizont & Gametocyte)](./Image%20Classification/Malaria/README.md) — CNN classifier for infected cell patches.
+- [Pneumonia Detection (CXR, CNN)](./Image%20Classification/Pneumonia%20Detection%20(CXR,%20CNN)/README.md) — ResNet-50/VGG-16 TL for pediatric chest X-rays; strong sensitivity/specificity.
+- [Malaria Detection (Plasmodium Schizont & Gametocyte)](./Image%20Classification/Malaria%20Detection/README.md) — CNN classifier for infected cell patches.
 - [Face Detection](./Image%20Classification/Face%20Detection/README.md) — Real-time face detection (MTCNN/RetinaFace) with FPS notes.
 
 ### Image-to-Image Translation
@@ -28,13 +28,13 @@ A concise portfolio showcasing projects I built during my studies in machine lea
 - [RAG Score Evaluation & Speed Analysis (B)](./NLP/RAG-B%20Score%20&%20Speed/README.md) — Quality (0–5 rubric) vs latency across backends.
 - [Similarity Assessment Model (C)](./NLP/RAG-C%20Similarity%20Assessment/README.md) — Embeddings + ANN (FAISS/ScaNN/Annoy/HNSW) with Top-K scoring.
 - [Module to Create Fine-Tuning](./NLP/Module%20to%20Create%20Fine-Tuning/README.md) — Modular LoRA/QLoRA fine-tuning workflow (Transformers + PEFT).
+- [CRUD Operation – Minimal API & Data Layer](./Other/CRUD%20Operation%20–%20Minimal%20API%20&%20Data%20Layer/README.md) — Typed CRUD mini-stack for demos/tools.
 
 ### Machine Learning
 - [Visualizing High-Dimensional Data with t-SNE](./Machine%20Learning/t-SNE%20Visualization/README.md) — Feature clustering visualization (t-SNE/UMAP).
 - [Skin Cancer with Classical ML](./Machine%20Learning/Skin%20Cancer%20(Classical%20ML)/README.md) — SVM/RF baselines vs CNN.
 
 ### Other
-- [CRUD Operation – Minimal API & Data Layer](./Other/CRUD%20Operation%20–%20Minimal%20API%20&%20Data%20Layer/README.md) — Typed CRUD mini-stack for demos/tools.
 - [Generating Synonym Words with Python](./Other/Generating%20Synonyms/README.md) — POS-aware synonym script for words/phrases.
 
 ---
