@@ -1,4 +1,4 @@
-````markdown
+
 # RAG Evaluation – Category-Aware Question Retrieval
 
 **Notebook:** `RAG Evaluation.ipynb`  
