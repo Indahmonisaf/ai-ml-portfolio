@@ -1,7 +1,7 @@
 # Small Ship Detection in Infrared Images (IS-YOLO)
 
 **Goal & Context**  
-Detect small ships in IR imagery under heterogeneous sea/urban backgrounds where low signal-to-clutter, blurred contours, specular reflections, and scale variance make detection difficult. IS-YOLO (YOLOv7-based) improves accuracy and real-time performance for maritime applications.
+Detect small ships in infrared (IR) images under heterogeneous sea/urban backgrounds—where low signal-to-clutter, blurred contours, bright reflections/waves, and size variability make detection hard. The paper proposes IS-YOLO (a YOLOv7-based method) to improve accuracy and real-time performance for maritime applications.
 
 **Publication**  
 “**IS-YOLO: A YOLOv7-based Detection Method for Small Ship Detection in Infrared Images With Heterogeneous Backgrounds**.”  
