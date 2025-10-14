@@ -1,0 +1,5 @@
+python yolov5.py  --image ./04.411.jpg  --weights ./exp6.onnx --conf_thres 0.7 --iou_thres 0.5 --imgs 640 --classes ./classes.txt
+
+pip install onnxruntime-gpu==1.12
+conda install onnxruntime -c conda-forge
+conda activate phayolov7onnx
