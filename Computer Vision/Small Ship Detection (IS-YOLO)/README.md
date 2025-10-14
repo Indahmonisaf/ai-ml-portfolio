@@ -9,6 +9,22 @@
 - Achieves **AP@0.5 = 88.9%** and **AP@0.5:0.95 = 38.3%**, outperforming strong baselines (YOLOv7/8/9, Faster R-CNN, RetinaNet, FCOS) while keeping parameters and model size competitive. :contentReference[oaicite:2]{index=2}
 
 ---
+## Publication
+**IS-YOLO: A YOLOv7-based Detection Method for Small Ship Detection in Infrared Images With Heterogeneous Backgrounds**  
+*International Journal of Control, Automation, and Systems*, 22(11), 3295–3302, 2024.  
+DOI: 10.1007/s12555-024-0044-8. :contentReference[oaicite:16]{index=16}
+
+> **Paper PDF:** `./paper.pdf` (place your copy here)
+
+---
+
+## Patent
+**Method for detecting small object in infrared image and system thereof**  
+Korean Patent Application No. **10-2024-0040244**, filed **2024-03-25**; Applicant: **Yeungnam University Industry-Academic Cooperation Foundation**; Inventors: **Sungho Kim, Indah Monisa Firdiantika**. :contentReference[oaicite:17]{index=17}
+
+> **Patent PDF:** `./patent.pdf` (place your copy here)
+
+---
 
 ## Abstract
 Ship detection in infrared imagery is challenging due to **low signal-to-clutter ratios**, indistinct contours, small apparent sizes, and complex sea background. We propose **IS-YOLO**, a YOLOv7-based framework designed to enhance feature extraction and multi-scale fusion for **small IR targets**. The backbone replaces E-ELAN blocks with **E-C2G (ELAN-2Conv + GhostConv)** and integrates a **ResC3** unit to reduce redundancy and improve gradient flow. The neck adopts **MPPELAN**, a max-pooling-pyramid ELAN variant that strengthens multi-scale context aggregation. On our FLIR-captured maritime IR dataset and public benchmarks, IS-YOLO improves precision/recall and AP metrics over state-of-the-art detectors. :contentReference[oaicite:3]{index=3}
@@ -95,22 +111,6 @@ Ship detection in infrared imagery is challenging due to **low signal-to-clutter
 
 ---
 
-## Publication
-**IS-YOLO: A YOLOv7-based Detection Method for Small Ship Detection in Infrared Images With Heterogeneous Backgrounds**  
-*International Journal of Control, Automation, and Systems*, 22(11), 3295–3302, 2024.  
-DOI: 10.1007/s12555-024-0044-8. :contentReference[oaicite:16]{index=16}
-
-> **Paper PDF:** `./paper.pdf` (place your copy here)
-
----
-
-## Patent
-**Method for detecting small object in infrared image and system thereof**  
-Korean Patent Application No. **10-2024-0040244**, filed **2024-03-25**; Applicant: **Yeungnam University Industry-Academic Cooperation Foundation**; Inventors: **Sungho Kim, Indah Monisa Firdiantika**. :contentReference[oaicite:17]{index=17}
-
-> **Patent PDF:** `./patent.pdf` (place your copy here)
-
----
 
 ## How to Use This Folder
 ```
