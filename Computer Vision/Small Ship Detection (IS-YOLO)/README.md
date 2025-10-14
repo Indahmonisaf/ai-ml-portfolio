@@ -27,7 +27,7 @@ Ship detection in infrared imagery is challenging due to **low signal-to-clutter
 
 <p align="center">
   <!-- Replace with your architecture figure if you want -->
-  <img src="./architecture.png" alt="IS-YOLO Architecture" width="85%"/>
+  <img src="./architecture.png" alt="IS-YOLO Architecture" width="55%"/>
 </p>
 
 ---
