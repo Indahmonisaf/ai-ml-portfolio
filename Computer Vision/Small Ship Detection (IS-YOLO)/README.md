@@ -3,6 +3,10 @@
 **Goal & Context**  
 Detect small ships in IR imagery under heterogeneous sea/urban backgrounds where low signal-to-clutter, blurred contours, specular reflections, and scale variance make detection difficult. IS-YOLO (YOLOv7-based) improves accuracy and real-time performance for maritime applications.
 
+**Publication**  
+“**IS-YOLO: A YOLOv7-based Detection Method for Small Ship Detection in Infrared Images With Heterogeneous Backgrounds**.”  
+*Indah Monisa Firdiantika, Sungho Kim.* **IJCAS**, 22(11): 3295–3302 (2024). DOI: 10.1007/s12555-024-0044-8.
+
 **Datasets**
 - **Yeungnam Univ. IR Small Ships** (authors’ dataset, FLIR T620): 1,370 train / 120 val (YOLO labels).
 - **SIRST v2**: 512 imgs (train 360 / val 103 / test 51), cluttered urban scenes.
@@ -26,10 +30,6 @@ Outperforms YOLOv7/YOLOv8l/YOLOv9, Faster R-CNN, FCOS, RetinaNet.
 
 **Ablation (highlight)**  
 E-C2G backbone + MPPELAN neck yields best AP while keeping params/model size below YOLOv7 baseline.
-
-**Publication**  
-“**IS-YOLO: A YOLOv7-based Detection Method for Small Ship Detection in Infrared Images With Heterogeneous Backgrounds**.”  
-*Indah Monisa Firdiantika, Sungho Kim.* **IJCAS**, 22(11): 3295–3302 (2024). DOI: 10.1007/s12555-024-0044-8.
 
 ## How to Run (after code is uploaded)
 - `train.py` / `val.py` / `infer.py` with YAML configs  
