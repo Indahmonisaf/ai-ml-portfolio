@@ -54,7 +54,7 @@ A concise portfolio showcasing projects I built during my studies in machine lea
 ### Computer Vision
 
 * **Small Ship Detection in Infrared Images (IS-YOLO)** — YOLOv7-based detector tailored for tiny IR targets in clutter; tuned backbone/neck, anchors, and augmentation for small objects.
-  *Media placeholders:* add sample **images** and **videos**.
+**Paper:** [Small Ship Detection in Infrared Images (IS-YOLO) — Springer](https://link.springer.com/article/10.1007/s12555-024-0044-8)
 * **Box Recognition (EGCY-Net)** — Lightweight YOLO variant to detect/ count stacked boxes on edge devices (Jetson); quantization + TensorRT/ONNX for real-time.
 * **Overlapped Steel Sheet Detection** — Instance segmentation + overlap logic + temporal smoothing to prevent double-feed on lines.
 * **Face Areas (RGB+IR)** — Multimodal detection of forehead/nose/cheeks with RGB–IR fusion; robust in low light.
