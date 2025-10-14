@@ -15,7 +15,7 @@ A concise portfolio showcasing projects I built during my studies in machine lea
 
 ### Image Classification
 - [Skin Cancer Classification (CNN)](./Image%20Classification/Skin%20Cancer%20Classification%20(CNN)/README.md) — MLP vs custom CNN vs VGG-16 TL on HAM10000; accuracy and latency compared.
-- [Pneumonia Detection](./Image%20Classification/Pneumonia%20Detection%20/README.md) — ResNet-50/VGG-16 TL for pediatric chest X-rays; strong sensitivity/specificity.
+- [Pneumonia Detection](./Image%20Classification/Pneumonia%20Detection/README.md) — ResNet-50/VGG-16 TL for pediatric chest X-rays; strong sensitivity/specificity.
 - [Malaria Detection (Plasmodium Schizont & Gametocyte)](./Image%20Classification/Malaria%20Detection/README.md) — CNN classifier for infected cell patches.
 - [Face Detection](./Image%20Classification/Face%20Detection/README.md) — Real-time face detection (MTCNN/RetinaFace) with FPS notes.
 
