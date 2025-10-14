@@ -56,7 +56,7 @@ A concise portfolio showcasing projects I built during my studies in machine lea
 * **Small Ship Detection in Infrared Images (IS-YOLO)** — YOLOv7-based detector tailored for tiny IR targets in clutter; tuned backbone/neck, anchors, and augmentation for small objects. <br>
  **Paper:** [IS-YOLO: A YOLOv7-based Detection Method for Small Ship Detection in Infrared Images With Heterogeneous Backgrounds — Springer](https://link.springer.com/article/10.1007/s12555-024-0044-8)
 * **Box Recognition (EGCY-Net)** — Lightweight YOLO variant to detect/ count stacked boxes on edge devices (Jetson); quantization + TensorRT/ONNX for real-time. <br>
-  **Paper:** [EGCY-Net: An ELAN and GhostConv-Based YOLO Network for Stacked Packages in Logistic Systems - MDPI] (https://www.mdpi.com/2076-3417/14/7/2763)
+  **Paper:** [EGCY-Net: An ELAN and GhostConv-Based YOLO Network for Stacked Packages in Logistic Systems - MDPI](https://www.mdpi.com/2076-3417/14/7/2763)
 * **Overlapped Steel Sheet Detection** — Instance segmentation + overlap logic + temporal smoothing to prevent double-feed on lines.
 * **Face Areas (RGB+IR)** — Multimodal detection of forehead/nose/cheeks with RGB–IR fusion; robust in low light.
 * **Fire & Smoke Detection** — Early event detection with motion/temporal filters to reduce false alarms in factories.
@@ -66,9 +66,9 @@ A concise portfolio showcasing projects I built during my studies in machine lea
 * **Skin Cancer (CNN)** — Compare MLP, custom CNN, and VGG-16 TL on HAM10000; best accuracy with TL, latency compared. <br>
   **Paper:** [Performance of Multi Layer Perceptron and Deep Neural Networks in Skin Cancer Classification - 2021 IEEE 3rd Global Conference on Life Sciences and Technologies (LifeTech) ](https://ieeexplore.ieee.org/document/9391876)
 * **Pneumonia Detection** — ResNet-50/VGG-16 TL on pediatric CXR; sensitivity/specificity focus with careful augmentation. <br>
-  **Paper:** [Pneumonia detection in chest X-ray images using convolutional neural network] (https://pubs.aip.org/aip/acp/article-abstract/2499/1/020001/2827211/Pneumonia-detection-in-chest-X-ray-images-using?redirectedFrom=fulltext)
+  **Paper:** [Pneumonia detection in chest X-ray images using convolutional neural network](https://pubs.aip.org/aip/acp/article-abstract/2499/1/020001/2827211/Pneumonia-detection-in-chest-X-ray-images-using?redirectedFrom=fulltext)
 * **Malaria Detection** — CNN for parasite stages (schizont/gametocyte) on microscopy patches; balanced with augmentation. <br>
-  **Paper:** [Classification of Plasmodium Skizon and Gametocytes Malaria Images Using Deep Learning] (https://ieeexplore.ieee.org/document/9649676)
+  **Paper:** [Classification of Plasmodium Skizon and Gametocytes Malaria Images Using Deep Learning](https://ieeexplore.ieee.org/document/9649676)
 * **Face Detection** — Real-time MTCNN/RetinaFace with ONNX export; FPS benchmarks on CPU/edge GPU.
 
 ### Image-to-Image Translation
