@@ -87,7 +87,7 @@ t-SNE feature maps indicate **better class separation** and **cross-camera robus
 ### 📦 Box Availability Recognition
 
 <p align="center">
-  <img src="Media/Media13 (1).gif" alt="Box Availability Recognition" height="420" style="display:block;">
+  <img src="Media/Media13 (1).gif" alt="Box Availability Recognition" height="620" style="display:block;">
 </p>
 
 
@@ -219,6 +219,7 @@ If you use this work, please cite:
 ```
 
 ---
+
 
 
 
