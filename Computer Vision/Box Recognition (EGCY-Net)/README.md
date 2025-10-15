@@ -88,7 +88,8 @@ t-SNE feature maps indicate **better class separation** and **cross-camera robus
 ### 🧰 Box Type & Quantity Recognition (GIF)
 | **Box 04** | **Box 13** | **Box A** | **Box Y** |
 |---|---|---|---|
-| <img src="./Media/Media1.gif" width="120%"/> | <img src="./Media/Media2.gif" width="100%"/> | <img src="./Media/Media3.gif" width="100%"/> | <img src="./Media/media4_1.gif" width="100%"/> |
+| ![Box 04](Media/Media1.gif) | ![Box 13](Media/Media2.gif) | ![Box A](Media/Media3.gif) | ![Box Y](Media/media4_1.gif) |
+
 
 ---
 
@@ -158,6 +159,7 @@ If you use this work, please cite:
 ```
 
 ---
+
 
 
 
