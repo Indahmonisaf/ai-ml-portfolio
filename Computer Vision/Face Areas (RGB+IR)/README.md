@@ -1,5 +1,5 @@
-###Face Areas (RGB+IR)** 
-> Multimodal detection of forehead/nose/cheeks with RGB–IR fusion; robust in low light.  <br>
+#Infrared Nose Detection
+Multimodal detection of forehead/nose/cheeks with RGB–IR fusion; robust in low light.  <br>
   **Goal:** detect nostril and nose areas to estimate respiration rate.<br>
   **Dataset:** Public dataset + AVIL dataset; Train **3,391** images, Val **338** images. <br>
   **Method:**  
