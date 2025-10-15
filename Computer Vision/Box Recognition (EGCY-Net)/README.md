@@ -53,7 +53,7 @@ Manual recognition/counting of stacked packages slows logistics. We present **EG
   - Train/Val/Test per class (example table in paper): `04 (420/80/12), 13 (420/80/34), A (420/80/40), Y (420/80/22)`.
 
 <p align="center">
-  <img src="./Picture3.png" alt="Box Type and Size" width="85%"/>
+  <img src="./Picture3.png" alt="Box Type and Size" width="55%"/>
 </p>
 ---
 
@@ -71,7 +71,7 @@ Manual recognition/counting of stacked packages slows logistics. We present **EG
 - **EGCNet**: ELAN-style layer aggregation + two CGStacks to stabilize gradients and enrich features.
 
 <p align="center">
-  <img src="./architecture.jpg" alt="EGCY-Net Architecture" width="85%"/>
+  <img src="./architecture.jpg" alt="EGCY-Net Architecture" width="55%"/>
 </p>
 
 ---
@@ -82,7 +82,7 @@ Manual recognition/counting of stacked packages slows logistics. We present **EG
 - **Availability model**: Input ~`128×128×3`, ~15 epochs, batch 8 (paper example).
 - 
 <p align="center">
-  <img src="./Picture4.png" alt="Jetson Nano and Arducam IMX477" width="85%"/>
+  <img src="./Picture4.png" alt="Jetson Nano and Arducam IMX477" width="55%"/>
 </p>
 ---
 
@@ -169,6 +169,7 @@ If you use this work, please cite:
 ```
 
 ---
+
 
 
 
