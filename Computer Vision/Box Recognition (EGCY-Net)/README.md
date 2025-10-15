@@ -3,7 +3,7 @@
 > End-to-end vision system that **classifies box availability**, **detects box types (`04`, `13`, `A`, `Y`)**, and **counts quantities** for AGV-driven logistics. Implemented on **Jetson Nano + Arducam IMX477** and benchmarked against SOTA detectors. 
 
 
-## TL;DR / Highlights
+## Highlights
 - **Two-stage pipeline**: (1) **Box availability** classifier (MobileNet) on cropped RoI; (2) **EGCY-Net** detector (YOLOv7 base with **CGStack** & **EGCNet**) to identify box **type** and **count**.
 - **Dataset**: Factory images/videos → curated & labeled; **4 box types (04, 13, A, Y)**; **1258 images** for detection; availability set: **1200 “box” + 1200 “no box”** frames. 
 - **Results (20-epoch comparison)**: EGCY-Net achieves **best mAP@0.5:0.95** on all/most classes with **fewest params (~30M)**, **smallest ONNX (111MB)**, and **fastest inference (5.96s)** among tested models. 
@@ -33,7 +33,7 @@ Manual recognition/counting of stacked packages slows logistics. We present **EG
   - Train/Val/Test per class (example table in paper): `04 (420/80/12), 13 (420/80/34), A (420/80/40), Y (420/80/22)`.
 
 <p align="center">
-  <img src="./Picture3.png" alt="Box Type and Size" width="35%"/>
+  <img src="./Picture3.png" alt="Box Type and Size" width="40%"/>
 </p>
 ---
 
@@ -78,8 +78,6 @@ Manual recognition/counting of stacked packages slows logistics. We present **EG
 
 ### Visualization & Domain Robustness
 t-SNE feature maps indicate **better class separation** and **cross-camera robustness** (smartphone ↔ Arducam) for EGCY-Net vs YOLOv7. 
-
-> For your repo, drop comparison screenshots under `./figures/results/` and short clips in `./videos/`.
 
 ---
 
@@ -173,28 +171,6 @@ Inventors: **Sungho Kim**, **Indah Monisa Firdiantika**, Seongryeong Lee, Chaita
 
 ---
 
-## Folder Structure
-```
-
-projects/egcy-net/
-├─ README.md
-├─ paper.pdf           # Applied Sciences paper
-├─ patent.pdf          # KIPO application PDF
-├─ figures/
-│  ├─ cover.jpg
-│  ├─ architecture.png
-│  └─ results/
-│     ├─ sample_01.jpg
-│     └─ sample_02.jpg
-└─ videos/
-├─ detect_smartphone.mp4
-├─ detect_arducam.mp4
-└─ agv_workflow.mp4
-
-````
-
----
-
 ## Citation
 If you use this work, please cite:
 
@@ -211,14 +187,8 @@ If you use this work, please cite:
 }
 ````
 
-## Contact
-
-* **Indah Monisa Firdiantika, M.S.** — add your email / LinkedIn
-* Department of Electronic Engineering, Yeungnam University
-
-```
-
 ---
+
 
 
 
