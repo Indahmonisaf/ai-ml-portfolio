@@ -30,19 +30,9 @@ Detect the **nostril** and **nose** regions to estimate **respiration rate**.
 **Results**  
 Sample IR frames show successful detection of **nostril** and **nose** regions.
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <video controls muted playsinline width="100%">
-        <source src="./Media1.mp4" type="video/mp4">
-      </video>
-      <br/><sub><b>Nostril area detection</b></sub>
-    </td>
-    <td align="center" width="50%">
-      <video controls muted playsinline width="100%">
-        <source src="./Media2.mp4" type="video/mp4">
-      </video>
-      <br/><sub><b>Nose area detection</b></sub>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <video controls muted playsinline width="70%">
+    <source src="./Media1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
