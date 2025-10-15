@@ -1,13 +1,13 @@
 ### EGCY-Net: ELAN & GhostConv-Based YOLO for Stacked Packages in Logistic Systems
 
-> End-to-end vision system that **classifies box availability**, **detects box types (`04`, `13`, `A`, `Y`)**, and **counts quantities** for AGV-driven logistics. Implemented on **Jetson Nano + Arducam IMX477** and benchmarked against SOTA detectors. :contentReference[oaicite:0]{index=0}
+> End-to-end vision system that **classifies box availability**, **detects box types (`04`, `13`, `A`, `Y`)**, and **counts quantities** for AGV-driven logistics. Implemented on **Jetson Nano + Arducam IMX477** and benchmarked against SOTA detectors. 
 
 
 ## TL;DR / Highlights
-- **Two-stage pipeline**: (1) **Box availability** classifier (MobileNet) on cropped RoI; (2) **EGCY-Net** detector (YOLOv7 base with **CGStack** & **EGCNet**) to identify box **type** and **count**. :contentReference[oaicite:1]{index=1}  
-- **Dataset**: Factory images/videos → curated & labeled; **4 box types (04, 13, A, Y)**; **1258 images** for detection; availability set: **1200 “box” + 1200 “no box”** frames. :contentReference[oaicite:2]{index=2}  
-- **Results (20-epoch comparison)**: EGCY-Net achieves **best mAP@0.5:0.95** on all/most classes with **fewest params (~30M)**, **smallest ONNX (111MB)**, and **fastest inference (5.96s)** among tested models. :contentReference[oaicite:3]{index=3}  
-- **Embedded deployment**: Converted **PyTorch → ONNX**, optimized for **Jetson Nano**. :contentReference[oaicite:4]{index=4}
+- **Two-stage pipeline**: (1) **Box availability** classifier (MobileNet) on cropped RoI; (2) **EGCY-Net** detector (YOLOv7 base with **CGStack** & **EGCNet**) to identify box **type** and **count**.
+- **Dataset**: Factory images/videos → curated & labeled; **4 box types (04, 13, A, Y)**; **1258 images** for detection; availability set: **1200 “box” + 1200 “no box”** frames. 
+- **Results (20-epoch comparison)**: EGCY-Net achieves **best mAP@0.5:0.95** on all/most classes with **fewest params (~30M)**, **smallest ONNX (111MB)**, and **fastest inference (5.96s)** among tested models. 
+- **Embedded deployment**: Converted **PyTorch → ONNX**, optimized for **Jetson Nano**. 
 
 ---
 
@@ -33,7 +33,7 @@ Put videos in `./videos/` (MP4 recommended), then link:
 ---
 
 ## Abstract
-Manual recognition/counting of stacked packages slows logistics. We present **EGCY-Net**, a one-stage YOLOv7-based detector enhanced with a **Conv-GhostConv Stack (CGStack)** and an **ELAN-GhostConv module (EGCNet)** to better capture hierarchical features with fewer parameters. Together with a lightweight **MobileNet** classifier for **box/no-box** availability, the system achieves high precision/recall and competitive mAP while remaining deployable on embedded hardware. :contentReference[oaicite:5]{index=5}
+Manual recognition/counting of stacked packages slows logistics. We present **EGCY-Net**, a one-stage YOLOv7-based detector enhanced with a **Conv-GhostConv Stack (CGStack)** and an **ELAN-GhostConv module (EGCNet)** to better capture hierarchical features with fewer parameters. Together with a lightweight **MobileNet** classifier for **box/no-box** availability, the system achieves high precision/recall and competitive mAP while remaining deployable on embedded hardware.
 
 ---
 
@@ -43,31 +43,31 @@ Manual recognition/counting of stacked packages slows logistics. We present **EG
 - **Classes**: `box`, `no box`  
 - **Source**: Factory video → **RoI cropping** → frame extraction  
 - **Size**: **1200** images per class (JPG)  
-- **Usage**: Train MobileNet for availability in storage RoIs. :contentReference[oaicite:6]{index=6}
+- **Usage**: Train MobileNet for availability in storage RoIs. 
 
 ### 2) Box Type & Quantity (detection)
 - **Classes**: `04`, `13`, `A`, `Y`  
-- **Total images**: **1258** (JPG), collected from smartphone/Arducam; cropped to single stacks for speed. :contentReference[oaicite:7]{index=7}  
+- **Total images**: **1258** (JPG), collected from smartphone/Arducam; cropped to single stacks for speed. 
 - **YOLO format** with txt labels: `<class cx cy w h>` (normalized)  
 - **Suggested split (paper)**:
-  - Train/Val/Test per class (example table in paper): `04 (420/80/12), 13 (420/80/34), A (420/80/40), Y (420/80/22)`. :contentReference[oaicite:8]{index=8}
+  - Train/Val/Test per class (example table in paper): `04 (420/80/12), 13 (420/80/34), A (420/80/40), Y (420/80/22)`.
 
-> **Data availability**: Proprietary factory data; access on request with company permission. :contentReference[oaicite:9]{index=9}
+> **Data availability**: Proprietary factory data; access on request with company permission.
 
 ---
 
 ## Method
 
 ### Pipeline
-1) **Availability**: MobileNet on RoI → `box` / `no box`. :contentReference[oaicite:10]{index=10}  
-2) **Type & Count**: **EGCY-Net** (YOLOv7 backbone) → per-stack detection; then **count boxes per class** with size/score thresholds (pseudo-code in paper). :contentReference[oaicite:11]{index=11}
-
+1) **Availability**: MobileNet on RoI → `box` / `no box`. 
+2) **Type & Count**: **EGCY-Net** (YOLOv7 backbone) → per-stack detection; then **count boxes per class** with size/score thresholds (pseudo-code in paper).
+   
 ### EGCY-Net Architecture (overview)
 - **Backbone**: `Conv → EGCNet (ELAN + CGStack) → MP`  
 - **Neck**: `Conv/Upsample/MP/Concat + EGCNet` with **multi-scale feature fusion**  
 - **Head**: `IDetect` (three scales: S/M/L)  
 - **CGStack**: `1×1 Conv → GhostConv → 1×1 Conv` (reduces params while preserving spatial features)  
-- **EGCNet**: ELAN-style layer aggregation + two CGStacks to stabilize gradients and enrich features. :contentReference[oaicite:12]{index=12}
+- **EGCNet**: ELAN-style layer aggregation + two CGStacks to stabilize gradients and enrich features.
 
 <p align="center">
   <img src="./figures/architecture.png" alt="EGCY-Net Architecture" width="85%"/>
@@ -76,9 +76,9 @@ Manual recognition/counting of stacked packages slows logistics. We present **EG
 ---
 
 ## Implementation
-- **Training env (paper)**: Linux, CUDA 11.8, cuDNN 8.1; RTX 4090 for training; **Jetson Nano** for deployment; **Arducam IMX477** camera. :contentReference[oaicite:13]{index=13}  
-- **Formats**: Train in PyTorch → export **ONNX** for Jetson. :contentReference[oaicite:14]{index=14}
-- **Availability model**: Input ~`128×128×3`, ~15 epochs, batch 8 (paper example). :contentReference[oaicite:15]{index=15}
+- **Training env (paper)**: Linux, CUDA 11.8, cuDNN 8.1; RTX 4090 for training; **Jetson Nano** for deployment; **Arducam IMX477** camera.  
+- **Formats**: Train in PyTorch → export **ONNX** for Jetson. 
+- **Availability model**: Input ~`128×128×3`, ~15 epochs, batch 8 (paper example). 
 
 ---
 
@@ -90,10 +90,10 @@ Manual recognition/counting of stacked packages slows logistics. We present **EG
 - **All classes (mAP@0.5:0.95)**: **EGCY-Net 87.1%** (best)  
 - **Per class (mAP@0.5:0.95)**: `04: 86.5%`, `13: 87.3%`, `A: 86.6%`, `Y: 88.6%`  
 - **Params**: **~30M** (fewest) • **ONNX**: **111MB** (smallest) • **Inference time**: **5.96 s** (fastest of compared set)  
-(Table and qualitative examples in the paper.) :contentReference[oaicite:16]{index=16}
+(Table and qualitative examples in the paper.) 
 
 ### Visualization & Domain Robustness
-t-SNE feature maps indicate **better class separation** and **cross-camera robustness** (smartphone ↔ Arducam) for EGCY-Net vs YOLOv7. :contentReference[oaicite:17]{index=17}
+t-SNE feature maps indicate **better class separation** and **cross-camera robustness** (smartphone ↔ Arducam) for EGCY-Net vs YOLOv7. 
 
 > For your repo, drop comparison screenshots under `./figures/results/` and short clips in `./videos/`.
 
@@ -103,7 +103,7 @@ t-SNE feature maps indicate **better class separation** and **cross-camera robus
 **EGCY-Net: An ELAN and GhostConv-Based YOLO Network for Stacked Packages in Logistic Systems**  
 *Applied Sciences*, **14**(7):2763, **26 March 2024**.  
 Authors: **Indah Monisa Firdiantika**, Seongryeong Lee, Chaitali Bhattacharyya, Yewon Jang, **Sungho Kim***.  
-DOI: `10.3390/app14072763`. :contentReference[oaicite:18]{index=18}
+DOI: `10.3390/app14072763`. 
 
 - **Paper PDF**: put your copy at `./paper.pdf`
 
@@ -113,7 +113,7 @@ DOI: `10.3390/app14072763`. :contentReference[oaicite:18]{index=18}
 **Artificial neural network for automated box recognition, box recognition method and computing device, and recording medium thereof**  
 KIPO application no. **10-2024-0046794**, **filed 2024-04-05**.  
 Applicant: **Yeungnam University Industry-Academic Cooperation Foundation**.  
-Inventors: **Sungho Kim**, **Indah Monisa Firdiantika**, Seongryeong Lee, Chaitali Bhattacharyya, Yewon Jang. :contentReference[oaicite:19]{index=19}
+Inventors: **Sungho Kim**, **Indah Monisa Firdiantika**, Seongryeong Lee, Chaitali Bhattacharyya, Yewon Jang. 
 
 - **Patent PDF**: put your copy at `./patent.pdf`
 
@@ -157,15 +157,6 @@ If you use this work, please cite:
 }
 ````
 
----
-
-## License & Data Use
-
-* Paper is **CC BY 4.0**; credit the authors/publisher when reusing figures/tables.
-* Factory dataset is **restricted**; contact authors/company for permissions. 
-
----
-
 ## Contact
 
 * **Indah Monisa Firdiantika, M.S.** — add your email / LinkedIn
@@ -174,4 +165,5 @@ If you use this work, please cite:
 ```
 
 ---
+
 
