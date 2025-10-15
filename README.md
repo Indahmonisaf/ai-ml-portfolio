@@ -37,7 +37,7 @@ A concise portfolio showcasing projects I built during my studies in machine lea
 
 * **Machine Learning**
 
-  * [t-SNE / UMAP Visualization](./Machine%20Learning/t-SNE%20Visualization/README.md)
+  * [t-SNE Visualization](./Machine%20Learning/t-SNE%20Visualization/README.md)
 
 * **Other**
 
