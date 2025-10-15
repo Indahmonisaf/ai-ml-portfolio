@@ -39,9 +39,10 @@ A concise portfolio showcasing projects I built during my studies in machine lea
 
   * [t-SNE Visualization](./Machine%20Learning/t-SNE%20Visualization/README.md)
 
-* **Other**
+* **Web Development**
 
-  * [Generating Synonym Words with Python](./Other/Generating%20Synonyms/README.md)
+  * [Generating Synonym Words with Python](./Web Development/Generating%20Synonyms/README.md)
+  * [AI Writing Assistant Website](./Web Development/AI%20Writing%20Tool/README.md)
 
 ---
 
