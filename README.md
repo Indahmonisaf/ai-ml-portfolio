@@ -2,7 +2,7 @@
 
 # AI/ML Portfolio
 
-A concise portfolio showcasing projects I built during my studies in machine learning, deep learning, and computer vision. Each project folder includes a short write-up (goal, data, method, metrics, how to run). Code/notebooks will be added as I upload them.
+A concise portfolio showcasing projects I built during my studies in machine learning, deep learning, and computer vision. Each project folder includes a short write-up (goal, data, method, metrics, how to run). 
 
 > **Author:** Indah Monisa Firdiantika
 
@@ -16,18 +16,15 @@ A concise portfolio showcasing projects I built during my studies in machine lea
   * [Box Recognition Method and Computing Device (EGCY-Net)](./Computer%20Vision/Box%20Recognition%20%28EGCY-Net%29/README.md)
   * [AI Vision for Overlapped Steel Sheet Detection](./Computer%20Vision/Overlapped%20Steel%20Sheet%20Detection/README.md)
   * [Forehead, Nose, and Cheek Detection (RGB & Infrared)](./Computer%20Vision/Face%20Areas%20%28RGB+IR%29/README.md)
-  * [AI Fire & Smoke Detection for Smart Manufacturing](./Computer%20Vision/Fire%20&%20Smoke%20Detection/README.md)
 
 * **Image Classification**
 
   * [Skin Cancer Classification (CNN)](./Image%20Classification/Skin%20Cancer%20Classification%20%28CNN%29/README.md)
   * [Pneumonia Detection](./Image%20Classification/Pneumonia%20Detection/README.md)
   * [Malaria Detection (Plasmodium Schizont & Gametocyte)](./Image%20Classification/Malaria%20Detection/README.md)
-  * [Face Detection](./Image%20Classification/Face%20Detection/README.md)
 
 * **Image-to-Image Translation**
 
-  * [CycleGAN](./Image-to-Image/CycleGAN/README.md)
   * [Neural Style Transfer](./Image-to-Image/Neural%20Style%20Transfer/README.md)
 
 * **Natural Language Processing**
@@ -41,7 +38,6 @@ A concise portfolio showcasing projects I built during my studies in machine lea
 * **Machine Learning**
 
   * [t-SNE / UMAP Visualization](./Machine%20Learning/t-SNE%20Visualization/README.md)
-  * [Skin Cancer with Classical ML](./Machine%20Learning/Skin%20Cancer%20%28Classical%20ML%29/README.md)
 
 * **Other**
 
@@ -59,7 +55,6 @@ A concise portfolio showcasing projects I built during my studies in machine lea
   **Paper:** [EGCY-Net: An ELAN and GhostConv-Based YOLO Network for Stacked Packages in Logistic Systems - MDPI](https://www.mdpi.com/2076-3417/14/7/2763)
 * **Overlapped Steel Sheet Detection** — Instance segmentation + overlap logic + temporal smoothing to prevent double-feed on lines.
 * **Face Areas (RGB+IR)** — Multimodal detection of forehead/nose/cheeks with RGB–IR fusion; robust in low light.
-* **Fire & Smoke Detection** — Early event detection with motion/temporal filters to reduce false alarms in factories.
 
 ### Image Classification
 
@@ -69,11 +64,9 @@ A concise portfolio showcasing projects I built during my studies in machine lea
   **Paper:** [Pneumonia detection in chest X-ray images using convolutional neural network](https://pubs.aip.org/aip/acp/article-abstract/2499/1/020001/2827211/Pneumonia-detection-in-chest-X-ray-images-using?redirectedFrom=fulltext)
 * **Malaria Detection** — CNN for parasite stages (schizont/gametocyte) on microscopy patches; balanced with augmentation. <br>
   **Paper:** [Classification of Plasmodium Skizon and Gametocytes Malaria Images Using Deep Learning](https://ieeexplore.ieee.org/document/9649676)
-* **Face Detection** — Real-time MTCNN/RetinaFace with ONNX export; FPS benchmarks on CPU/edge GPU.
 
 ### Image-to-Image Translation
 
-* **CycleGAN** — Unpaired A↔B translation with cycle consistency & identity loss; notes on stability.
 * **Neural Style Transfer** — VGG perceptual loss, TV regularization; before/after gallery.
 
 ### Natural Language Processing
@@ -87,7 +80,6 @@ A concise portfolio showcasing projects I built during my studies in machine lea
 ### Machine Learning
 
 * **t-SNE / UMAP Visualization** — High-dimensional feature exploration; perplexity/neighbors sweeps and labeled clusters.
-* **Skin Cancer (Classical ML)** — HOG/LBP + SVM/RF baselines vs CNN; PR/ROC and feature importance.
 
 ### Other
 
@@ -97,8 +89,7 @@ A concise portfolio showcasing projects I built during my studies in machine lea
 
 ## Tech Highlights
 
-* **CV:** YOLOv7 variants, instance segmentation, RGB+IR fusion, ONNX/TensorRT deployment.
+* **CV:** Python YOLOv7 variants, instance segmentation, RGB+IR fusion, ONNX/TensorRT deployment.
 * **NLP / RAG:** SBERT embeddings, FAISS/ScaNN/HNSW, category-aware reranking, human quality rubric.
-* **Lightweight MLOps:** ONNX export, timing/FPS notes, reproducible notebooks with “How to run”.
+* **Lightweight MLOps:** ONNX export, timing/FPS notes”.
 
-> Tip: Add images/videos to each project folder and reference them inside that project’s `README.md` (e.g., `![demo](./media/demo.jpg)` or embedded MP4/GIF).
