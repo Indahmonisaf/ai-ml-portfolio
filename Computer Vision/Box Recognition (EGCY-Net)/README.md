@@ -1,4 +1,4 @@
-### EGCY-Net: ELAN & GhostConv-Based YOLO for Stacked Packages in Logistic Systems
+# EGCY-Net: ELAN & GhostConv-Based YOLO for Stacked Packages in Logistic Systems
 
 > End-to-end vision system that **classifies box availability**, **detects box types (`04`, `13`, `A`, `Y`)**, and **counts quantities** for AGV-driven logistics. Implemented on **Jetson Nano + Arducam IMX477** and benchmarked against SOTA detectors. 
 
@@ -165,5 +165,6 @@ If you use this work, please cite:
 ```
 
 ---
+
 
 
