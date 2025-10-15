@@ -12,7 +12,7 @@
 - **Two annotation types:** **nostril area** and **nose area**.
 
   <p align="center">
-    <img src="./Computer%20Vision/Face%20Areas%20(RGB%2BIR)/IR.png"
+    <img src="./IR.png"
          alt="Method: pipeline and annotation types (nostril & nose area)"
          width="60%">
   </p>
