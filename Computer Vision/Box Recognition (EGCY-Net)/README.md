@@ -86,17 +86,26 @@ t-SNE feature maps indicate **better class separation** and **cross-camera robus
 ## Demo Media
 
 ### 🧰 Box Type & Quantity Recognition (GIF)
+
 <table>
-  <tr>
-    <th>Box 04</th><th>Box 13</th><th>Box A</th><th>Box Y</th>
-  </tr>
-  <tr>
-    <td><img src="Media/Media1.gif"  alt="Box 04" height="220"></td>
-    <td><img src="Media/Media2.gif"  alt="Box 13" height="220"></td>
-    <td><img src="Media/Media3.gif"  alt="Box A"  height="220"></td>
-    <td><img src="Media/Media4_1.gif" alt="Box Y"  height="220"></td>
-  </tr>
+  <thead>
+    <tr>
+      <th>Box 04</th>
+      <th>Box 13</th>
+      <th>Box A</th>
+      <th>Box Y</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td width="25%"><img src="Media/Media1.gif"  alt="Box 04" width="100%"></td>
+      <td width="25%"><img src="Media/Media2.gif"  alt="Box 13" width="100%"></td>
+      <td width="25%"><img src="Media/Media3.gif"  alt="Box A"  width="100%"></td>
+      <td width="25%"><img src="Media/Media4_1.gif" alt="Box Y"  width="100%"></td>
+    </tr>
+  </tbody>
 </table>
+
 
 ---
 
@@ -166,6 +175,7 @@ If you use this work, please cite:
 ```
 
 ---
+
 
 
 
