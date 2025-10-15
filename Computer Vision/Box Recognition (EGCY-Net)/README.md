@@ -9,26 +9,6 @@
 - **Results (20-epoch comparison)**: EGCY-Net achieves **best mAP@0.5:0.95** on all/most classes with **fewest params (~30M)**, **smallest ONNX (111MB)**, and **fastest inference (5.96s)** among tested models. 
 - **Embedded deployment**: Converted **PyTorch → ONNX**, optimized for **Jetson Nano**. 
 
----
-
-## Demo Media (drop your evidence here)
-
-### 📸 Photos (qualitative results)
-Place images in `./figures/results/` and reference them below.
-
-<p align="center">
-  <img src="./figures/results/sample_01.jpg" alt="Result 1" width="45%"/>
-  <img src="./figures/results/sample_02.jpg" alt="Result 2" width="45%"/>
-</p>
-
-### 🎥 Videos (detections / AGV workflow)
-Put videos in `./videos/` (MP4 recommended), then link:
-
-- [Detection Demo (Smartphone)](./videos/detect_smartphone.mp4)  
-- [Detection Demo (Arducam IMX477)](./videos/detect_arducam.mp4)  
-- [End-to-End AGV Workflow](./videos/agv_workflow.mp4)
-
-> Tip: GitHub can preview small MP4s inline. For large files, consider **Git LFS** or link to Releases.
 
 ---
 
@@ -103,6 +83,15 @@ t-SNE feature maps indicate **better class separation** and **cross-camera robus
 
 ---
 
+## Demo Media
+
+### 🧰 Box Type & Quantity Recognition (GIF)
+| **Box 04** | **Box 13** | **Box A** | **Box Y** |
+|---|---|---|---|
+| <img src="./Media1.gif" width="100%"/> | <img src="./Media2.gif" width="100%"/> | <img src="./Media3.gif" width="100%"/> | <img src="./Media1.gif4" width="60%"/> |
+
+---
+
 ## Publication
 **EGCY-Net: An ELAN and GhostConv-Based YOLO Network for Stacked Packages in Logistic Systems**  
 *Applied Sciences*, **14**(7):2763, **26 March 2024**.  
@@ -169,6 +158,7 @@ If you use this work, please cite:
 ```
 
 ---
+
 
 
 
