@@ -33,11 +33,11 @@ Sample IR frames show successful detection of **nostril** and **nose** regions.
 <table>
   <tr>
     <td align="center" width="50%">
-      <a href="./Media1.mp4"><img src="./Media1.gif" alt="Nostril area detection" width="100%"></a>
+      <img src="./Media1.gif" alt="Nostril area detection" width="100%">
       <br/><sub><b>Nostril area detection</b></sub>
     </td>
     <td align="center" width="50%">
-      <a href="./Media2.mp4"><img src="./Media2.gif" alt="Nose area detection" width="100%"></a>
+      <img src="./Media2.gif" alt="Nose area detection" width="100%">
       <br/><sub><b>Nose area detection</b></sub>
     </td>
   </tr>
