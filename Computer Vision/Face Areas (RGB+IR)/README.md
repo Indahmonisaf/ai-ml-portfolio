@@ -33,6 +33,5 @@ Sample IR frames show successful detection of **nostril** and **nose** regions.
 <p align="center">
   <video controls muted playsinline width="70%">
     <source src="./Media1.mp4" type="video/mp4">
-    Your browser does not support the video tag.
   </video>
 </p>
