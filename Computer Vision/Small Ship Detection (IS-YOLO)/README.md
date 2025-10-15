@@ -1,9 +1,9 @@
 
-**“Small Ship Detection in Infrared Images (IS-YOLO)”**
+# Small Ship Detection in Infrared Images (IS-YOLO)
 
 > YOLOv7-based detector tailored for **small ship** targets in **infrared (IR)** imagery with heterogeneous sea backgrounds.
 
-## TL;DR / Highlights
+## Highlights
 - **IS-YOLO** introduces lightweight yet effective backbone/neck upgrades (E-C2G, ResC3, **MPPELAN**) to improve **small-target** recognition in IR scenes with glare, clutter, waves, fog, islands, and shorelines. 
 - Trained and validated on a **FLIR T620**–captured small-ship IR dataset from Yeungnam University (**1,370 train / 120 val**), with additional tests on **SIRST-v2** and **IRSTD-1k** for generalization.
 - Achieves **AP@0.5 = 88.9%** and **AP@0.5:0.95 = 38.3%**, outperforming strong baselines (YOLOv7/8/9, Faster R-CNN, RetinaNet, FCOS) while keeping parameters and model size competitive.
@@ -109,11 +109,10 @@ Ship detection in infrared imagery is challenging due to **low signal-to-clutter
 ```
 
 ai-ml-portfolio/Computer Vision/Small Ship Detection (IS-YOLO)/
-├─ README.md              # this file
-├─ paper.pdf              # add your paper here
-├─ patent.pdf             # add your patent here
-├─ slides.pdf             # (optional) add your slides
-├─ architecture.png    # (optional) model diagram
+├─ README.md             
+├─ paper.pdf             
+├─ patent.pdf             
+├─ architecture.png   
 └─ result.png
 
 ````
@@ -136,11 +135,4 @@ If you use IS-YOLO or this dataset description, please cite the paper:
 }
 ````
 
----
 
-## Acknowledgments
-
-This work was supported by the **National Research Foundation of Korea (MSIT)** (No. RS-2023-00219725) and **Yeungnam University Research Grants (2024)**. 
-
-
-```
