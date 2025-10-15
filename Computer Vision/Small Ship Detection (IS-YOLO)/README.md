@@ -57,7 +57,7 @@ Ship detection in infrared imagery is challenging due to **low signal-to-clutter
 
 
 <p align="center">
-  <img src="./result.png" alt="Qualitative Result 1" width="75%"/>
+  <img src="./result.png" alt="Qualitative Result 1" width="100%"/>
 
 </p>
 
