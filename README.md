@@ -41,8 +41,8 @@ A concise portfolio showcasing projects I built during my studies in machine lea
 
 * **Web Development**
 
-  * [Generating Synonym Words with Python](./Web Development/Generating%20Synonyms/README.md)
-  * [AI Writing Assistant Website](./Web Development/AI%20Writing%20Tool/README.md)
+  * [Generating Synonym Words with Python](./Web%20Development/Generating%20Synonyms/README.md)
+  * [AI Writing Assistant Website](./Web%20Development/AI%20Writing%20Assistant%20Website/README.md)
 
 ---
 
