@@ -85,7 +85,7 @@ t-SNE feature maps indicate **better class separation** and **cross-camera robus
 
 ## Demo Media
 
-### 🧰 Box Type & Quantity Recognition (GIF)
+### 🧰 Box Type & Quantity Recognition
 
 <table>
   <thead>
@@ -101,10 +101,53 @@ t-SNE feature maps indicate **better class separation** and **cross-camera robus
       <td width="25%"><img src="Media/Media1.gif"  alt="Box 04" width="100%"></td>
       <td width="25%"><img src="Media/Media2.gif"  alt="Box 13" width="100%"></td>
       <td width="25%"><img src="Media/Media3.gif"  alt="Box A"  width="100%"></td>
-      <td width="25%"><img src="Media/Media4_1.gif" alt="Box Y"  width="100%"></td>
+      <td width="25%"><img src="Media/media4_1.gif" alt="Box Y"  width="100%"></td>
     </tr>
   </tbody>
 </table>
+
+### 🧰 Result of detecting only the first row of boxes
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2" align="center">Box 13</th>
+      <th colspan="2" align="center">Box 04</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <!-- Pasangan untuk "Box 13" -->
+      <td width="25%"><img src="Media/Media5 (1).gif"  alt="Box 13 - left"  width="100%"></td>
+      <td width="25%"><img src="Media/Media6 (1).gif"  alt="Box 13 - right" width="100%"></td>
+
+      <!-- Pasangan untuk "Box 04" -->
+      <td width="25%"><img src="Media/Media7 (1).gif"  alt="Box 04 - left"  width="100%"></td>
+      <td width="25%"><img src="Media/Media8 (1).gif" alt="Box 04 - right" width="100%"></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2" align="center">Box A</th>
+      <th colspan="2" align="center">Box Y</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <!-- Pasangan untuk "Box A" -->
+      <td width="25%"><img src="Media/Media9 (1).gif"  alt="Box A - left"  width="100%"></td>
+      <td width="25%"><img src="Media/Media10 (1).gif"  alt="Box A - right" width="100%"></td>
+
+      <!-- Pasangan untuk "Box Y" -->
+      <td width="25%"><img src="Media/Media11 (1).gif"  alt="Box Y - left"  width="100%"></td>
+      <td width="25%"><img src="Media/Media12 (1).gif" alt="Box Y - right" width="100%"></td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 ---
@@ -175,6 +218,7 @@ If you use this work, please cite:
 ```
 
 ---
+
 
 
 
