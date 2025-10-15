@@ -105,7 +105,7 @@ Ship detection in infrared imagery is challenging due to **low signal-to-clutter
 ---
 
 
-## How to Use This Folder
+## Content of this folder
 ```
 
 ai-ml-portfolio/Computer Vision/Small Ship Detection (IS-YOLO)/
