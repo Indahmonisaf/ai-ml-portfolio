@@ -117,13 +117,10 @@ t-SNE feature maps indicate **better class separation** and **cross-camera robus
   </thead>
   <tbody>
     <tr>
-      <!-- Pasangan untuk "Box 13" -->
-      <td width="25%"><img src="Media/Media5 (1).gif"  alt="Box 13 - left"  width="100%"></td>
-      <td width="25%"><img src="Media/Media6 (1).gif"  alt="Box 13 - right" width="100%"></td>
-
-      <!-- Pasangan untuk "Box 04" -->
-      <td width="25%"><img src="Media/Media7 (1).gif"  alt="Box 04 - left"  width="100%"></td>
-      <td width="25%"><img src="Media/Media8 (1).gif" alt="Box 04 - right" width="100%"></td>
+      <td style="padding:6px;"><img src="Media/Media5 (1).gif"  alt="Box 13 - left"  style="width:100%;height:auto;display:block;"></td>
+      <td style="padding:6px;"><img src="Media/Media6 (1).gif"  alt="Box 13 - right" style="width:100%;height:auto;display:block;"></td>
+      <td style="padding:6px;"><img src="Media/Media7 (1).gif"  alt="Box 04 - left"  style="width:100%;height:auto;display:block;"></td>
+      <td style="padding:6px;"><img src="Media/Media8 (1).gif"  alt="Box 04 - right" style="width:100%;height:auto;display:block;"></td>
     </tr>
   </tbody>
 </table>
@@ -137,16 +134,14 @@ t-SNE feature maps indicate **better class separation** and **cross-camera robus
   </thead>
   <tbody>
     <tr>
-      <!-- Pasangan untuk "Box A" -->
-      <td width="25%"><img src="Media/Media9 (1).gif"  alt="Box A - left"  width="100%"></td>
-      <td width="25%"><img src="Media/Media10 (1).gif"  alt="Box A - right" width="100%"></td>
-
-      <!-- Pasangan untuk "Box Y" -->
-      <td width="25%"><img src="Media/Media11 (1).gif"  alt="Box Y - left"  width="100%"></td>
-      <td width="25%"><img src="Media/Media12 (1).gif" alt="Box Y - right" width="100%"></td>
+      <td style="padding:6px;"><img src="Media/Media9 (1).gif"   alt="Box A - left"   style="width:100%;height:auto;display:block;"></td>
+      <td style="padding:6px;"><img src="Media/Media10 (1).gif"  alt="Box A - right"  style="width:100%;height:auto;display:block;"></td>
+      <td style="padding:6px;"><img src="Media/Media11 (1).gif"  alt="Box Y - left"   style="width:100%;height:auto;display:block;"></td>
+      <td style="padding:6px;"><img src="Media/Media12 (1).gif"  alt="Box Y - right"  style="width:100%;height:auto;display:block;"></td>
     </tr>
   </tbody>
 </table>
+
 
 
 
@@ -218,6 +213,7 @@ If you use this work, please cite:
 ```
 
 ---
+
 
 
 
