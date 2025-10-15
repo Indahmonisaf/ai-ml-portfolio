@@ -1,5 +1,4 @@
-
-* **Face Areas (RGB+IR)** — Multimodal detection of forehead/nose/cheeks with RGB–IR fusion; robust in low light.  <br>
+**Face Areas (RGB+IR)** — Multimodal detection of forehead/nose/cheeks with RGB–IR fusion; robust in low light.  <br>
   **Goal:** detect nostril and nose areas to estimate respiration rate.<br>
   **Dataset:** Public dataset + AVIL dataset; Train **3,391** images, Val **338** images. <br>
   **Method:**  
@@ -14,7 +13,7 @@
   <p align="center">
     <img src="./IR.png"
          alt="Method: pipeline and annotation types (nostril & nose area)"
-         width="60%">
+         width="80%">
   </p>
   
 **Dataset Information**  
@@ -29,4 +28,22 @@ Detect the **nostril** and **nose** regions to estimate **respiration rate**.
 - **Nose-area detection:** **track global nose motion** to recover the breathing signal.
 
 **Results**  
-Sample IR frames show successful detection of **nostril** and **nose** regions (see figures below).
+Sample IR frames show successful detection of **nostril** and **nose** regions.
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <a href="./media1.mp4">
+        <img src="./Computer%20Vision/Face%20Areas%20(RGB%2BIR)/media/result-video-1.gif" alt="Nostril area detection" width="100%"/>
+      </a>
+      <br/><sub><b>Nostril area detection</b></sub>
+    </td>
+    <td align="center" width="50%">
+      <a href="./media2.mp4">
+        <img src="./Computer%20Vision/Face%20Areas%20(RGB%2BIR)/media/result-video-2.gif" alt="Nose area detection" width="100%"/>
+      </a>
+      <br/><sub><b>Nose area detection</b></sub>
+    </td>
+  </tr>
+</table>
+
