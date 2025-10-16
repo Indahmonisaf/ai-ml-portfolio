@@ -21,7 +21,6 @@ A concise portfolio showcasing projects I built during my studies in machine lea
 
   * [Skin Cancer Classification (CNN)](./Image%20Classification/Skin%20Cancer%20Classification%20%28CNN%29/README.md)
   * [Pneumonia Detection](./Image%20Classification/Pneumonia%20Detection/README.md)
-  * [Malaria Detection (Plasmodium Schizont & Gametocyte)](./Image%20Classification/Malaria%20Detection/README.md)
 
 * **Image-to-Image Translation**
 
