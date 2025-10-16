@@ -12,10 +12,10 @@ A concise portfolio showcasing projects I built during my studies in machine lea
 
 * **Computer Vision**
 
-  * [Small Ship Detection in Infrared Images (IS-YOLO)](./Computer%20Vision/Small%20Ship%20Detection%20%28IS-YOLO%29/README.md)
   * [Box Recognition Method and Computing Device (EGCY-Net)](./Computer%20Vision/Box%20Recognition%20%28EGCY-Net%29/README.md)
-  * [AI Vision for Overlapped Steel Sheet Detection](./Computer%20Vision/Overlapped%20Steel%20Sheet%20Detection/README.md)
+  * [Small Ship Detection in Infrared Images (IS-YOLO)](./Computer%20Vision/Small%20Ship%20Detection%20%28IS-YOLO%29/README.md)
   * [Forehead, Nose, and Cheek Detection (RGB & Infrared)](./Computer%20Vision/Face%20Areas%20%28RGB+IR%29/README.md)
+  * [AI Vision for Overlapped Steel Sheet Detection](./Computer%20Vision/Overlapped%20Steel%20Sheet%20Detection/README.md)
 
 * **Image Classification**
 
