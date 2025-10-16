@@ -1,2 +1,2 @@
 
-visi : https://zeroquillai.com/ 
+visit : https://zeroquillai.com/ 
