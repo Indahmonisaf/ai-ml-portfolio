@@ -74,10 +74,6 @@ A concise portfolio showcasing projects I built during my studies in machine lea
 * **Module to Create Fine-Tuning** — Configurable LoRA/QLoRA pipelines (Transformers + PEFT); mixed precision; checkpoints.
 * **CRUD Operation – Minimal API & Data Layer** — Typed FastAPI/Express baseline with SQL/SQLite; clean DAL for demos.
 
-### Machine Learning
-
-* **t-SNE / UMAP Visualization** — High-dimensional feature exploration; perplexity/neighbors sweeps and labeled clusters.
-
 ### Other
 
 * **Generating Synonym Words with Python** — POS-aware synonym script for words/phrases; filters by frequency/stopwords for cleaner substitutions.
