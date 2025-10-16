@@ -2,7 +2,7 @@
 
 # AI/ML Portfolio
 
-A concise portfolio showcasing projects I built during my studies in machine learning, deep learning, and computer vision. Each project folder includes a short write-up (goal, data, method, metrics, how to run). 
+A concise portfolio showcasing projects I built during my studies in machine learning, deep learning, and computer vision. Each project folder includes a short write-up (goal, data, method, demo). 
 
 > **Author:** Indah Monisa Firdiantika
 
