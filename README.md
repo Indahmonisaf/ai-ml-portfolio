@@ -35,9 +35,6 @@ A concise portfolio showcasing projects I built during my studies in machine lea
   * [Module to Create Fine-Tuning](./NLP/Module%20to%20Create%20Fine-Tuning/README.md)
   * [CRUD Operation – Minimal API & Data Layer](./NLP/CRUD%20Operation%20–%20Minimal%20API%20&%20Data%20Layer/README.md)
 
-* **Machine Learning**
-
-  * [t-SNE Visualization](./Machine%20Learning/t-SNE%20Visualization/README.md)
 
 * **Web Development**
 
